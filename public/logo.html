@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>ie_countdown</title>
+		
+		<style type="text/css" media="screen">
+       
+			div {
+				display:block;
+				margin:0;
+				padding:0;
+			}
+
+			#wrapper {
+				width:400px;
+				margin:60px auto;
+				xposition:relative;
+			}
+
+			#e_letter {
+				width:400px;
+				height:400px;
+				background:#2c98d6;
+				x-moz-border-radius: 220px/235px;
+				-webkit-border-radius: 50%; /* 200 */
+				xborder-radius: 220px/235px;
+				position:absolute;
+			}
+			
+			#inner_circle {
+				position:relative;
+				background:white;
+				top:22.5%;   /* 90px */
+				left:22.5%;
+				width:55%;	/* 220px */
+				height:55%;
+				-webkit-border-radius:50%; /* 110px (50% of 220px) */
+			}
+			
+			#divider {
+				position:relative;
+				background:#2c98d6;
+				
+				width:55%; /* 220 */
+				height:15%; /* 60 */
+				
+				top:-15%;
+				left:22.5%; /* 90 */
+				
+			}
+			
+			#opening {
+				position:relative;
+				background:white;
+				
+				width:50%; /* 200 */
+				height:12.5%; /* 50 */
+				
+				top:-15%; /* 60 */
+				left:50%; /* 200 */
+			}
+			
+			#cross {
+				background:#dd1010;
+				position:relative;
+				float:left;
+				
+				width:12.5%; /* 50 */
+				height:125%;
+				
+				top:-95%;
+				left:43.75%;
+				
+				-webkit-transform:rotate(45deg);
+			}
+			
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<div id="wrapper">
+			
+			<div id="e_letter">
+				<div id="inner_circle"></div>
+				<div id="divider"></div>
+				<div id="opening"></div>
+				<div id="cross"></div>
+			</div>
+			
+			
+			
+			
+		</div><!-- #wrapper -->
+		
+		
+
+	</body>
+	
+</html>

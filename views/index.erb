@@ -8,6 +8,120 @@
 		
 		<link rel="stylesheet" media="all" href="css/custom.css"/>
 		
+		<style type="text/css" media="screen">
+       
+			div {
+				display:block;
+				margin:0;
+				padding:0;
+			}
+
+			#wrapper {
+				width:400px;
+				margin:60px auto;
+			}
+
+			#e_letter {
+				width:400px;
+				height:400px;
+				background:#2c98d6;
+				-webkit-border-radius: 999px; /* yes, kind of hack */
+				-moz-border-radius: 999px;
+				border-radius: 999px;
+				position:absolute;
+			}
+			
+			#inner_circle {
+				position:relative;
+				background:#f6f6f6;
+				top:22.5%;   /* 90px */
+				left:22.5%;
+				width:55%;	/* 220px */
+				height:55%;
+				-webkit-border-radius:999px;
+				-moz-border-radius:999px;
+				border-radius:999px;
+			}
+			
+			#divider {
+				position:relative;
+				background:#2c98d6;
+				
+				width:55%; /* 220 */
+				height:15%; /* 60 */
+				
+				top:-15%;
+				left:22.5%; /* 90 */
+				
+			}
+			
+			#opening {
+				position:relative;
+				background:#f6f6f6;
+				
+				width:50%; /* 200 */
+				height:12.5%; /* 50 */
+				
+				top:-15%; /* 60 */
+				left:50%; /* 200 */
+			}
+			
+			#cross {
+				background:#dd1010;
+				position:relative;
+				float:left;
+				
+				width:12.5%; /* 50 */
+				height:125%;
+				
+				top:-95%;
+				left:43.75%;
+				
+				-webkit-transform:rotate(45deg);
+				-moz-transform:rotate(45deg);
+				-o-transform:rotate(45deg);
+				transform:rotate(45deg);
+			}
+			
+			header {
+				text-align:center;
+			}
+			
+			xfooter {
+				position:relative;
+				text-align:right;
+				right:20%;
+				margin-top:50%;
+			}
+			
+			#label {
+				position:relative;
+				top:20%;
+				left:60%;
+			}
+			
+			@media only screen and (max-width: 479px) {
+				
+				#wrapper {
+					width:250px;
+				}
+				
+				#e_letter {
+					width:250px;
+					height:250px;
+				}
+				
+				#label {
+					position:relative;
+					top:25%;
+					left:30%;
+				}
+				
+			}
+			
+			
+		</style>
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
 		
@@ -38,6 +152,19 @@
 		<header>
 			<h1>Hopefully there will be no Internet Explorer 10…</h1>
 		</header>
+		
+		<section id="wrapper">
+			
+			<div id="e_letter">
+				<div id="inner_circle"></div>
+				<div id="divider"></div>
+				<div id="opening"></div>
+				<div id="cross"></div>
+				<div id="label">pure CSS3, no images</div>
+			</div>
+			
+		</section>
+		
 		
 	</body>
 	
