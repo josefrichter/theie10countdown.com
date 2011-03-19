@@ -34,10 +34,10 @@
 			#inner_circle {
 				position:relative;
 				background:#f6f6f6;
-				top:22.5%;   /* 90px */
-				left:22.5%;
-				width:55%;	/* 220px */
-				height:55%;
+				top:25%;   /* 90px */
+				left:25%;
+				width:50%;	/* 220px */
+				height:50%;
 				-webkit-border-radius:999px;
 				-moz-border-radius:999px;
 				border-radius:999px;
@@ -100,6 +100,11 @@
 				left:60%;
 			}
 			
+			#html5logo {
+				text-align:center;
+				margin-top:540px;
+			}
+			
 			@media only screen and (max-width: 767px) {
 				
 				#wrapper {
@@ -117,17 +122,19 @@
 					left:30%;
 				}
 				
+				#html5logo {
+					width:250px;
+					margin-top:370px;
+				}
+				
 			}
+			
 			
 			
 		</style>
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
-		
-		<!--
-		<script type="text/javascript" src="js/grid.js"></script>
-		-->
 		
 		<script type="text/javascript">
 
@@ -147,7 +154,6 @@
 	
 	<body lang="en">
 		
-		<div id="grid">&nbsp;</div>
 		
 		<header>
 			<h1>Hopefully there will be no Internet Explorer 10…</h1>
@@ -164,6 +170,14 @@
 			</div>
 			
 		</section>
+		
+		<footer>
+			<div id="html5logo">
+				<a href="http://www.w3.org/html/logo/">
+				<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+				</a>
+			</div><!-- #html5logo -->
+		</footer>
 		
 		
 	</body>
